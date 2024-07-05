@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
+</head>
+<body>
+    <div class="main-parent">
+      <div class="form-wrap">
+        <form action="">
+            <h1><span1>Registration</span1>Form</h1>
+            <div class="single-input">
+                <input required type="text" id="fname" placeholder="First name">
+            </div>
+            <div class="single-input">
+                <input required type="text" id="lname" placeholder="Last name">
+            </div>
+            <div class="single-input">
+                <input required type="email" id="email" placeholder="E-Mail Address">
+            </div>
+            <div class="single-input">
+                <input required type="password" id="pass" placeholder="Password">
+                <span class="span2">
+                    <i class="fa-regular fa-eye" id="eye11" onclick="toggle11()"></i>
+                  </span>
+            </div>
+            <div class="single-input">
+                <input required type="password" id="cpass" placeholder="Confirm Password">
+                <span class="span3">
+                    <i class="fa-regular fa-eye" id="eye22" onclick="toggle22()"></i>
+                  </span>
+            </div>
+            <div class="Submit-button">
+                <button class="button">Submit</button>
+            </div>
+            <div class="account-have">
+                <a href="#">Forget Password</a>
+                <a href="./login.html">Have an account?</a>
+            </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/sweetalert.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

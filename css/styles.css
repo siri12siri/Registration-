@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Julee&family=Pacifico&family=Satisfy&display=swap');
+font-family: 'Crimson Text', serif;
+font-family: 'Julee', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+* img {
+  height: 2.5vh;
+  cursor: pointer;
+}
+.main-parent{
+  width: 100%;
+  height: 100vh; 
+  background-image: url("../images/sunset-g39e5664b6_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-parent .form-wrap{
+  width: 450px;
+  /* background: rgb(255 255 255/75%); */
+  border-radius: 10px;
+  padding: 35px 40px;
+  box-shadow: 0 0 10px 0 ;
+
+}
+.main-parent .form-wrap h1
+{
+  font-family: 'Crimson Text', serif;
+ font-variant: small-caps;
+ font-size: 45px;
+ text-align: center;
+ margin-bottom: 15px;
+}
+.main-parent .form-wrap h1 span1
+{
+  color: rgb(230, 201, 148);
+}
+
+.main-parent .form-wrap .single-input input
+{
+  width: 100%;
+  padding: 15px 10px;
+  border: 3px solid rgba(0, 0, 0, 0.352);
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: 'Satisfy', cursive;
+}
+ span{
+  position: absolute;
+  right: 38%;
+  transform: translate(0, -50%);
+  top: 56%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.span2{
+  position: absolute;
+  right: 38%;
+  transform: translate(0, -50%);
+  top: 62%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.span3{
+  position: absolute;
+  right: 38%;
+  transform: translate(0, -50%);
+  top: 73%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa{
+  font-size: 40px;
+  color: #e3e1ec;
+}
+/*.main-parent .form-wrap .single-input img
+{
+  margin-left: 500px;
+  margin-top: 0px;
+}  */
+
+.Submit-button 
+{
+  text-align: center;
+}
+.Submit-button button
+{
+  padding: 13px 30px;
+  background-color: #f57224;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  cursor: pointer;
+}
+.account-have
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.account-have a
+{
+  color: rgb(230, 201, 148);
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Julee', cursive;
+}
